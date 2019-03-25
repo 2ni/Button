@@ -1,5 +1,5 @@
 /**
- * Simple push button library to distinguis between
+ * Simple push button library to distinguish between
  * long and short pushes
  *
  */
