@@ -8,5 +8,5 @@ This library does not use any timers.
 The use of a LED for feedback is optional.
 
 # Example usage
-see examples/
+see [examples/](examples)
 
