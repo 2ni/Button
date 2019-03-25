@@ -8,7 +8,7 @@
 #include <Button.h>
 
 #define BUTTON 39 // any GPIO pin
-#define LED 17    // GPIO where a LED is connected to
+#define LED 17    // GPIO where a LED is connected to (optional)
 
 /*
  * Callback function when a push is detected
@@ -23,6 +23,8 @@ void buttonPressed(Button::pushType type) {
   }
 }
 
+// in case no LED is used
+// Button button = Button(BUTTON, buttonPressed);
 Button button = Button(BUTTON, LED, buttonPressed);
 
 void setup() {
